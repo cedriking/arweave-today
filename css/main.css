@@ -1,0 +1,188 @@
+html {
+    -webkit-text-size-adjust: none;
+    touch-action: manipulation;
+}
+
+a, article, body, footer, h1, h2, h3, h4, header, html, input, select, main, section {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+
+    background-color: #fafcff;
+}
+body,
+input,
+select {
+    font: 1.2rem/2rem -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,Oxygen-Sans,Ubuntu,Cantarell,'Helvetica Neue',sans-serif;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+    color: #6b778e;
+    text-decoration: none;
+}
+
+h1 {
+    color: #212529;
+    font-size: .9rem;
+    font-weight: 700;
+    line-height: 1.1rem;
+}
+h1 a {
+    display: block;
+}
+h2 {
+    color: #fff;
+    font-size: 2.5rem;
+    line-height: 3rem;
+}
+h3 {
+    display: block;
+    padding: 0 1vw;
+
+    color: #E3E7F2;
+    font-size: 2rem;
+    line-height: 3rem;
+    font-weight: 300;
+}
+h4 {
+    font-size: 2rem;
+    line-height: 2rem;
+}
+h2,
+h3,
+h4 {
+    font-weight: 300;
+    white-space: nowrap;
+}
+
+small {
+    display: block;
+
+    color: #9DAAB6;
+    font-size: .8rem;
+    line-height: 1.2rem;
+}
+
+input,
+select {
+    width: 100%;
+    height: 3rem;
+    padding: 0 2vw;
+
+    border-radius: 4px;
+    background-color: #fafcff;
+    box-shadow: 0 1px 4px 0 rgba(35,35,35,.16);
+    border: 1px solid transparent;
+    color: #3a3939;
+}
+input[type=number],
+select {
+    width: 49%;
+}
+
+header,
+footer,
+main {
+    position: relative;
+    padding: 3vw 8vw 1vw;
+}
+
+header,
+footer {
+    height: 10%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    color: #212529;
+    text-transform: uppercase;
+}
+header::before {
+    left: -22px;
+    bottom: -23px;
+    width: 0;
+    height: 0;
+    content: "";
+    display: block;
+    position: absolute;
+
+    transform: rotate(135deg);
+
+    border-color: transparent transparent transparent #428DFF;
+    border-width: 22px;
+    border-style: solid;
+}
+header svg {
+    fill: #6b778e;
+    width: 13px;
+}
+
+main {
+    border-radius: 0 4px 4px 4px;
+    background: #428DFF;
+}
+div + div {
+    margin: 2vw 0;
+}
+article + article {
+    padding: 2vw 0;
+}
+
+
+@media only screen and (min-width: 1024px) {
+    h1 a {
+        display: inline-block;
+    }
+
+    header {
+        padding: 1.6vw 2vw 0;
+    }
+
+    input,
+    select {
+        padding: 0 .5vw;
+
+        font-size: 1vw;
+        vertical-align: middle;
+    }
+
+    body {
+        left: 10%;
+        width: 80%;
+        position: relative;
+    }
+
+    footer,
+    main {
+        display: flex;
+    }
+
+    main,
+    footer {
+        padding: 2vw 2vw 2vw 4vw;
+    }
+
+    div + div {
+        margin: 0 0 0 4vw;
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    body {
+        left: 25%;
+        width: 50%;
+    }
+}
