@@ -7,10 +7,13 @@
     Arweave transaction fee calculator
 </p>
 
-dApp (decentralized application) for calculating the transaction price to a [Arweave](https://www.arweave.org) wallet depending on the file size and wallet address (optional).
+
+[Arweave](https://www.arweave.org) ÐApp (decentralized application) for calculating the transaction price depending on the transferred file size and the target wallet (optional).
+
 
 ### Arweave App
-https://arweave.net/4GesEQi3pgLyGYc68-CzihN5SIaatOh0pY3W4we5nko
+https://arweave.net/W17Vcev3kcq-irK7h9AVczCj5ko-_ys_YgEGYy1sg4I
+
 
 ### Features
 * [Winston and AR](https://docs.arweave.org/developers/server/http-api#ar-and-winston) fee units
