@@ -11,7 +11,7 @@
 [Arweave](https://www.arweave.org) ÐApp (decentralized application) for calculating the transaction price depending on the transferred file size and the target wallet (optional).
 
 
-### Arweave App
+### Chaiku on Permaweb
 https://arweave.net/71giX-OY-3LwXtfr44B2dDyzW8mPHEAKA-q0wGT0aRM
 
 
